@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Bauen Web Dev-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberty Center Chapel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2><a href="index.html"><img alt="" src="logo/logo1.png"></a></h2>
+		<ul class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about us.html">About Us</a>
+			</li>
+			<li>
+				<a href="services.html">Services</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+    </header>
+    <section>
+        <div class="hero">
+            <video autoplay loop plays-line id="backVideo"><source src="video/lccvi_compressed.mp4" type="video/mp4"></video>
+            <div class="sidebar">
+                <h1>Liberty Center Chapel</h1>
+                <h3>3330 S Dairy Ashford Houston, Texas 77082 USA.</h3>
+                <p>Mission Statement: Mountain of Prayer and Praise International Ministries (MOPP) is established to reach out to the lost, proclaim freedom to those in bondage, break every yoke, release people from their burdens, restore broken marriages, rekindle and reignite the believer's fire and above all save souls. </p>
+                <a href="#">Come Worship With Us</a>
+
+            </div>
+            <img src="play/play.png" id="btn">
+    
+    
+        </div>
+    </section>
+    <section class="msg-area">
+		<div class="msg-content">
+			<h2>Quote of the day</h2><br>
+			<p>"Now faith is the substance of things hoped for, 
+                the evidence of things not seen.<br>
+
+                2 For by it the elders obtained a good report.<br>
+                
+                3 Through faith we understand that the worlds
+                 were framed by the word of God,<br>
+                so that things which are seen were not made of things which do appear
+                <br>4 By faith Abel offered unto God a more excellent sacrifice than Cain,<br> by which he obtained witness that he was righteous, <br>God testifying of his gifts:
+                 <br>and by it he being dead yet speaketh."<br> 
+                 Hebrews 11:1-4.</p><br><br><br>
+		</div>
+	</section>
+	<section>
+		<a href="https://wa.me/612288554">
+		<i class="fa fa-whatsapp" id="whatsapp"></i>
+	</a>
+	</section>
+	<section class="services-area" id="services">
+		<h3 class="section-title">Our <span>Vision</span></h3>
+		<ul class="services-content">
+			<li>
+				<img alt="" src="https://images.unsplash.com/photo-1475938476802-32a7e851dad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80">
+				<h4>Faith</h4>
+				<p>Your Faith needs to be fed with the teachings of the word of God. 
+                    There is no better place than Liberty Center Chapel.
+                    This is a "win/win” situation for everyone involved. 
+                    You, Your Family and Friends are welcome to practice your faith in our Lord Jesus Christ with us this week at 
+                    Liberty Center Chapel (Mountain of Prayer and Praise International Ministries).
+                    See you soon!! 
+                </p>
+			</li>
+			<li>
+				<img alt="" src="https://images.unsplash.com/photo-1560541907-4d0de680e3a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+				<h4>Family</h4>
+				<p>Families are fortified by learning the fundamentals of the Holy scriptures.
+                    This is a "win/win” situation for everyone involved. 
+                    You, Your Family and Friends are welcome to practice your faith in our Lord Jesus Christ with us this week at 
+                    Liberty Center Chapel (Mountain of Prayer and Praise International Ministries).
+                    See you soon!! 
+                </p>
+			</li>
+			<li>
+				<img alt="" src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+				<h4>Friends</h4>
+				<p>Friendships are formed as Christians fellowship together serving Christ.
+                    This is a "win/win” situation for everyone involved. 
+                    You, Your Family and Friends are welcome to practice your faith in our Lord Jesus Christ with us this week at 
+                    Liberty Center Chapel (Mountain of Prayer and Praise International Ministries).
+                    See you soon!! 
+                </p>
+			</li>
+		</ul>
+	</section>
+    <section class="contact-area" id="contact">
+		<h3 class="section-title">Our <span>Contact</span></h3>
+		<ul class="contact-content">
+			<li>
+				<i class="fa fa-map-marker"></i>
+				<p>Liberty Center Chapel<br>3330 S Dairy Ashford<br> Houston Texas 77082<br>
+					United States.<br>
+		     </p>
+			</li>
+			<li>
+				<i class="fa fa-phone"></i>
+				<p>+1 281 748 5018<br>
+				+1 281 7485695</p>
+			</li>
+			<li>
+				<i class="fa fa-envelope"></i>
+				<p>info@libertycenter.com<br>
+				libertycenter.com</p>
+			</li>
+		</ul>
+	</section>
+	<footer>
+		<p>All Right Reserved libertycenterchapel.com</p>
+	</footer>
+    <script>
+        let backVideo = document.getElementById("backVideo");
+        let btn = document.getElementById("btn");
+        btn.onclick = function(){
+            backVideo.style.display = "block";
+            if(backVideo.paused){
+                backVideo.play();
+                btn.src = "play/play.png";
+            }
+            else{
+                backVideo.pause();
+                btn.src="pause/pause.png";
+            }
+        }
+    </script>
+</body>
+</html>
